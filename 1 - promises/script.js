@@ -66,6 +66,7 @@ Retornará uma nova promise assim que todas as ori=omises dentro deka forem reso
 
 /*
 Promesse.race()
+Retonrá uma nova promise assim que a primeira promise dor resolvida ou rejeita. essa nova promise terá a resposta da primeira resolvida
 */
 
 const login = new Promise((resolve) => {
